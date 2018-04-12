@@ -36,8 +36,8 @@ body,html{
 .content h1{
   margin: 0;
   padding: 0;
-  padding-bottom: 5px;
-  font-size: 6vh;
+  padding-bottom: 3px;
+  font-size: 7vh;
 }
 
 .content p{
@@ -45,12 +45,16 @@ body,html{
   padding-bottom: 5px;
   font-size: 3.5vh;
 }
+.content p.links{
+  margin: 0;
+  padding: 0;
+  font-size: 2.5vh;
+}
 
 .content  a{
   margin: 0;
   padding-bottom: 5px;
   color: #FFEB3B;
-  font-size: 3vh;
   z-index: 2000;
   text-decoration: none;
 }
